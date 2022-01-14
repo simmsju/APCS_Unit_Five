@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 
 public class LineTests {
-    /*
     private static Line line1 = new Line(5, 4, -17);
     private static Line line2 = new Line(-25, 40, 30);
     private static Line line3 = new Line(-10, -8, 20);
@@ -39,5 +38,13 @@ public class LineTests {
 
     }
 
-     */
+    @Test
+    public void lineTestToString() {
+        String str_line1 = "5x + 4y + -17 = 0";
+        String str_line2 = "-25x + 40y + 30 = 0";
+        String str_line3 = "-10x + -8y + 20 = 0";
+        assertEquals(str_line1, line1.toString());
+        assertEquals(str_line2, line2.toString());
+        assertEquals(str_line3, line3.toString());
+    }
 }
