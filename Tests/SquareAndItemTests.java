@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 
 public class SquareAndItemTests {
-    /*
     @Test
     @Order(1)
     public void squareAreaTest() {
@@ -19,7 +18,6 @@ public class SquareAndItemTests {
         double actual = s.calculateArea();
         assertEquals(expected, actual);
     }
-    */
 
     /*
 
